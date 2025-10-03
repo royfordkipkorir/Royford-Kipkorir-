@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fashion Store</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Basic SEO -->
+  <meta name="description" content="Fashion Store — browse trending clothing, view upcoming sales, and enjoy great deals." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Fashion<span>Store</span></a>
+
+      <nav class="nav">
+        <a href="#products">Products</a>
+        <a href="#sales">Upcoming Sales</a>
+        <a href="#benefits">Why Shop With Us</a>
+        <a class="cta" href="#products">Shop Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Refresh your style — effortless, modern fashion</h1>
+          <p>Curated collections, exclusive offers, and free delivery on orders above KES 6,000.</p>
+          <a class="btn btn-primary" href="#products">Browse Collections</a>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <!-- Decorative image from Unsplash (placeholder) -->
+          <img src="https://images.unsplash.com/photo-1520975698516-7c9f3c6d15bb?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=7c0d9b2a13c9b558d3f6ee8d2c9e5f7a"
+               alt="Fashion hero image">
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="container section">
+      <div class="section-header">
+        <h2>Featured Products</h2>
+        <p>Hand-picked items trending this season.</p>
+      </div>
+
+      <div class="product-grid">
+        <!-- Product card 1 -->
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=07d6a8b2b1a8de4d1f6b0e7a6a8b3e7e" alt="White T-shirt">
+          <div class="product-body">
+            <h3>Classic White T-shirt</h3>
+            <p class="price">KES 1,200</p>
+            <p class="desc">Soft cotton, everyday essential. Available in sizes S–XL.</p>
+            <div class="product-actions">
+              <button class="btn btn-outline">Add to Cart</button>
+              <button class="btn btn-small">View</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product card 2 -->
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1531123414780-f9a6f2a5e6f9?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=9a3fbf3b6a3e5f0b2e6a5d3b2c2f4a2c" alt="Denim jacket">
+          <div class="product-body">
+            <h3>Denim Jacket</h3>
+            <p class="price">KES 3,800</p>
+            <p class="desc">Classic cut — pairs well with everything.</p>
+            <div class="product-actions">
+              <button class="btn btn-outline">Add to Cart</button>
+              <button class="btn btn-small">View</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product card 3 -->
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1514996937319-344454492b37?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=7b2a8b2c3d3e4f5a6b7c8d9ea0b1c2d3" alt="Red dress">
+          <div class="product-body">
+            <h3>Red Midi Dress</h3>
+            <p class="price">KES 4,500</p>
+            <p class="desc">Elegant silhouette for day or night.</p>
+            <div class="product-actions">
+              <button class="btn btn-outline">Add to Cart</button>
+              <button class="btn btn-small">View</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product card 4 -->
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1542060748-9f83f4ca2b5d?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=4c6c6f6a6f6a6a6c6b6c6d6e6f7a8b9c" alt="Sneakers">
+          <div class="product-body">
+            <h3>Low-top Sneakers</h3>
+            <p class="price">KES 5,200</p>
+            <p class="desc">Comfortable, versatile, and built to last.</p>
+            <div class="product-actions">
+              <button class="btn btn-outline">Add to Cart</button>
+              <button class="btn btn-small">View</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Upcoming Sales -->
+    <section id="sales" class="container section sales-section">
+      <div class="section-header">
+        <h2>Upcoming Sale Offers</h2>
+        <p>Plan ahead — grab the best deals during these promotions.</p>
+      </div>
+
+      <div class="sales-table-wrap">
+        <table class="sales-table" aria-label="Upcoming sales table">
+          <thead>
+            <tr>
+              <th>Sale</th>
+              <th>Start Date</th>
+              <th>End Date</th>
+              <th>Discount</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Spring Refresh</td>
+              <td>March 20, 2025</td>
+              <td>March 27, 2025</td>
+              <td>Up to 25%</td>
+              <td>Extra 10% for members</td>
+            </tr>
+            <tr>
+              <td>Mid-year Mega Sale</td>
+              <td>June 15, 2025</td>
+              <td>June 21, 2025</td>
+              <td>15%–50%</td>
+              <td>Selected lines only</td>
+            </tr>
+            <tr>
+              <td>Black Friday Preview</td>
+              <td>November 20, 2025</td>
+              <td>November 28, 2025</td>
+              <td>Up to 60%</td>
+              <td>Limited stock</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sale-callout">
+        <h3>Why watch our sales?</h3>
+        <p>Sign up to our newsletter for early access, extra discounts, and first pick on limited releases.</p>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section id="benefits" class="container section benefits">
+      <div class="section-header">
+        <h2>Benefits of Shopping with Fashion Store</h2>
+      </div>
+
+      <ul class="benefit-list">
+        <li>
+          <h4>Quality Guarantee</h4>
+          <p>We source durable materials and maintain strict quality checks.</p>
+        </li>
+        <li>
+          <h4>Free & Fast Delivery</h4>
+          <p>Free delivery on orders above KES 6,000 — fast dispatch within 48 hours.</p>
+        </li>
+        <li>
+          <h4>Easy Returns</h4>
+          <p>30-day hassle-free returns on unworn items.</p>
+        </li>
+        <li>
+          <h4>Member Perks</h4>
+          <p>Exclusive discounts, early access to sales, and birthday offers when you join.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <h4>About Fashion Store</h4>
+        <p>Curating stylish essentials and modern classics. Find your look and feel confident every day.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#sales">Sales</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>Email: info@fashionstore.example</p>
+        <p>Phone: +254 700 000 000</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© Fashion Store 2025 — All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
